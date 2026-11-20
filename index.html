@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>БайҚау — Сервисная компания</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=58">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="canonical" href="https://baiqau.kz/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="БайҚау">
+<meta property="og:title" content="БайҚау — Сервисная компания">
+<meta property="og:description" content="Аварийная служба, ремонт, клининг и благоустройство по договору с ОСИ. ЖК «Тау Шатыр».">
+<meta property="og:url" content="https://baiqau.kz/">
+<meta property="og:image" content="https://baiqau.kz/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0b0d">
+
+<meta name="description" content="БайҚау — сервисная компания: аварийно-диспетчерская служба, техническое обслуживание, ремонт, клининг, благоустройство и документальный аудит для ОСИ, КСК и УК.">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">БҚ</span>
+      <span class="logo-text">
+        <span class="logo-title">БайҚау</span>
+        <span class="logo-sub">Сервисная компания</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#about">О нас</a>
+      <a href="#services">Услуги</a>
+      <a href="#audit">Аудит ОСИ</a>
+      <a href="#goldkey">Золотой ключ</a>
+      <a href="#documents">Документы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="lang-switch" role="group" aria-label="Язык">
+      <button type="button" data-lang="ru" aria-pressed="true">RU</button>
+      <span aria-hidden="true">|</span>
+      <button type="button" data-lang="kk" aria-pressed="false">ҚАЗ</button>
+    </div>
+
+    <a href="#contacts" class="btn-origin header-cta" id="originCta">
+      <span class="origin-fill" aria-hidden="true"></span>
+      <span class="origin-label">Оставить заявку</span>
+    </a>
+
+    <button class="burger" id="burgerBtn" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE NAV OVERLAY -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about">О нас</a>
+  <a href="#services">Услуги</a>
+  <a href="#audit">Аудит ОСИ</a>
+  <a href="#goldkey">Золотой ключ</a>
+  <a href="#documents">Документы</a>
+  <a href="#contacts">Контакты</a>
+  <a href="#contacts" class="btn btn-primary">Оставить заявку</a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero hero-beams">
+    <canvas id="heroBeams" class="hero-beams-canvas" aria-hidden="true"></canvas>
+    <div class="hero-beams-overlay" aria-hidden="true"></div>
+    <div class="container hero-beams-content">
+      <p class="eyebrow light animate-appear">Сервисная компания «БайҚау»</p>
+      <h1 class="animate-appear delay-100">Мы не просто обслуживаем дома.<br>Мы создаём сервис, которому доверяют жители и ОСИ</h1>
+      <p class="hero-sub animate-appear delay-200">Аварийная служба, ремонт, клининг и благоустройство по договору с ОСИ: понятные сроки, фотоотчёт по каждой работе и ответственность за результат.</p>
+      <div class="hero-actions animate-appear delay-300">
+        <a href="#contacts" class="btn btn-primary">Бесплатный аудит дома</a>
+        <a href="#services" class="btn btn-ghost-light">Смотреть услуги</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHERE WE WORK -->
+  <section class="where-strip" id="where">
+    <div class="container where-inner">
+      <div>
+        <p class="eyebrow">Где мы работаем</p>
+        <h2>ЖК «Тау Шатыр»</h2>
+      </div>
+      <p class="where-text">Мы обслуживаем ЖК «Тау Шатыр» как сервисная компания по договору с ОСИ: аварийная служба, ремонт, уборка и благоустройство. Правила, инструкции и отчёты, которые мы передаём в ОСИ, собраны в разделе «Документы».</p>
+      <a href="#documents" class="btn btn-ghost">Смотреть документы</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <h2>О нас</h2>
+        <p>«БайҚау» — сервисная компания: мы обслуживаем дом по договору с ОСИ и берём на себя техническую эксплуатацию, ремонт, уборку, благоустройство и аварийно-диспетчерскую службу. Совет ОСИ получает понятные отчёты, жители знают, куда обратиться и как быстро будет выполнена заявка, а обслуживание дома становится системным, а не реакцией на аварии.</p>
+        <ul class="check-list">
+          <li><span class="check-icon"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.2 8.2L11 1" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Качественный сервис</li>
+          <li><span class="check-icon"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.2 8.2L11 1" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Непрерывное взаимодействие</li>
+          <li><span class="check-icon"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.2 8.2L11 1" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Собственные стандарты обслуживания</li>
+          <li><span class="check-icon"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.2 8.2L11 1" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Профессиональная команда</li>
+          <li><span class="check-icon"><svg width="12" height="10" viewBox="0 0 12 10" fill="none"><path d="M1 5L4.2 8.2L11 1" stroke="#0b0b0d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Ответственность за результат</li>
+        </ul>
+      </div>
+      <div class="about-stats">
+        <div class="stat">
+          <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <span class="stat-num">24/7</span><span class="stat-label">Аварийно-диспетчерская служба</span>
+        </div>
+        <div class="stat">
+          <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></div>
+          <span class="stat-num">12</span><span class="stat-label">направлений услуг для дома</span>
+        </div>
+        <div class="stat">
+          <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5.2 3.4 9 8 11 4.6-2 8-5.8 8-11V5l-8-3Z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <span class="stat-num">7</span><span class="stat-label">этапов контроля каждой заявки</span>
+        </div>
+        <div class="stat">
+          <div class="stat-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h13l-3 4 3 4H5"/></svg></div>
+          <span class="stat-num">5</span><span class="stat-label">шагов от аудита до начала работы</span>
+        </div>
+      </div>
+
+      <!-- Приветствие руководителя — фото и текст прислала Дамеля Куантаевна
+           (01.09). Фото команды пока нет — обещала прислать после того, как
+           получат униформу. -->
+      <div class="about-welcome">
+        <div class="about-welcome-photo-frame">
+          <img class="about-welcome-photo" src="images/damelya.webp?v=2" alt="Койшина Дамеля Кауатаевна, директор ТОО «БайҚау»" loading="lazy">
+        </div>
+        <div class="about-welcome-text">
+          <p class="about-welcome-quote">«Қош келдіңіз! БайҚау — үйіңізге деген қамқорлықтан басталады. Біз үшін әр үй — жай ғана ғимарат емес, ол адамдардың өмірі, тыныштығы мен жайлылығы. Бірге жайлы үй, сенімді орта құрамыз!»</p>
+          <p class="about-welcome-quote">«Добро пожаловать! БайҚау — с заботой о вашем доме. Для нас каждый дом — это не просто здание, а место, где живут люди, создают семьи и хотят чувствовать себя спокойно. Вместе создаём комфортный дом и надёжную среду!»</p>
+          <div class="about-welcome-author">
+            <strong>Койшина Дамеля Кауатаевна</strong>
+            <span>Директор ТОО «БайҚау»</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMS -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Какие проблемы мы решаем</h2>
+      <p class="section-lead">Большинство ОСИ сталкиваются с одними и теми же вопросами</p>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <div class="problem-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/><line x1="3" y1="21" x2="21" y2="3"/></svg></div>
+          <p>Отсутствует прозрачность расходов</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L2 19l3 3 7.3-7.3a4 4 0 0 0 5.4-5.4l-2.8 2.8-2-2 2.8-2.8Z"/></svg></div>
+          <p>Подрядчики работают без должного контроля</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <p>Заявки жителей исполняются несвоевременно</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2s7 8 7 13a7 7 0 0 1-14 0c0-5 7-13 7-13Z"/></svg></div>
+          <p>Инженерные сети обслуживаются только после аварий</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></div>
+          <p>Председатель ОСИ вынужден сам решать организационные вопросы</p>
+        </div>
+        <div class="problem-card">
+          <div class="problem-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></div>
+          <p>Нет единой системы учёта заявок и контроля качества</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES CATALOG -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Услуги сервисной компании</h2>
+          <p class="section-lead">Всё для обслуживания дома — от аварийной службы и инженерных сетей до клининга, фасадов и ремонта</p>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="svcPrev" aria-label="Назад">&#8592;</button>
+          <button class="carousel-btn" id="svcNext" aria-label="Вперёд">&#8594;</button>
+        </div>
+      </div>
+
+      <div class="carousel" id="svcCarousel">
+
+        <article class="service-card">
+          <div class="service-icon">🚨</div>
+          <h3>Аварийно-диспетчерская служба</h3>
+          <ul><li>Приём заявок 24/7</li><li>Выезд аварийной бригады</li><li>Информирование жителей</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>Техническое обслуживание</h3>
+          <ul><li>Инженерные сети, отопление, кровля</li><li>Подвалы, чердаки, лифты</li><li>Электроснабжение мест общего пользования</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🪠</div>
+          <h3>Сантехника и электрика</h3>
+          <ul><li>Устранение протечек и засоров</li><li>Замена и ремонт электрооборудования</li><li>Выезд мастера по заявке</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🧼</div>
+          <h3>Клининг</h3>
+          <ul><li>Уборка подъездов и мест общего пользования</li><li>Генеральная уборка</li><li>Мытьё окон и входных групп</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🧹</div>
+          <h3>Дворники и территория</h3>
+          <ul><li>Ежедневная уборка территории</li><li>Зимнее содержание и посыпка</li><li>Уход за зелёными насаждениями</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🧗</div>
+          <h3>Промышленные альпинисты</h3>
+          <ul><li>Мытьё и ремонт фасадов</li><li>Герметизация межпанельных швов</li><li>Работы на высоте без лесов</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🏗️</div>
+          <h3>Строительные услуги</h3>
+          <ul><li>Строительные и монтажные работы</li><li>Технические задания и смета</li><li>Контроль качества и приёмка</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🛠️</div>
+          <h3>Ремонт квартир</h3>
+          <ul><li>Косметический и капитальный ремонт</li><li>Отделочные работы</li><li>Работы под ключ</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🚪</div>
+          <h3>Ремонт подъездов</h3>
+          <ul><li>Покраска и штукатурка</li><li>Ремонт входных групп и лестниц</li><li>Замена освещения и почтовых ящиков</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🌳</div>
+          <h3>Благоустройство</h3>
+          <ul><li>Озеленение и детские площадки</li><li>Малые архитектурные формы</li><li>Установка лавочек и урн</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🛡️</div>
+          <h3>Безопасность</h3>
+          <ul><li>Видеонаблюдение и контроль доступа</li><li>Домофония и противопожарные системы</li><li>Проверка аварийных выходов</li></ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">💬</div>
+          <h3>Работа с жителями</h3>
+          <ul><li>WhatsApp-поддержка и Telegram-бот</li><li>Отзывы и оценка работы мастеров</li><li>Фото-видео отчёт по каждой заявке</li></ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SLA -->
+  <section class="section section-dark">
+    <div class="container sla-inner">
+      <div>
+        <h2>Быстрое реагирование</h2>
+        <p class="section-lead light">Мы внедряем стандарты обслуживания (SLA) — соглашение об уровне качества услуг</p>
+        <ul class="sla-list">
+          <li><strong>Аварийные обращения (24/7)</strong> — незамедлительная регистрация и организация выезда</li>
+          <li><strong>Срочные технические заявки</strong> — в приоритетном порядке</li>
+          <li><strong>Плановые обращения</strong> — в установленные внутренними регламентами сроки</li>
+          <li>Контроль выполнения каждой заявки до её закрытия</li>
+          <li>Фото-видео отчётность по каждой выполненной работе</li>
+        </ul>
+      </div>
+      <div class="cycle-card">
+        <h3>Полный цикл заявки</h3>
+        <ol class="cycle-list">
+          <li>Регистрация</li>
+          <li>Назначение исполнителя</li>
+          <li>Выполнение работ</li>
+          <li>Контроль качества</li>
+          <li>Фотофиксация</li>
+          <li>Закрытие заявки</li>
+          <li>Уведомление заявителя</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCUMENT AUDIT -->
+  <section class="section section-alt" id="audit">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Документальный аудит для ОСИ, КСК, УК</h2>
+          <p class="section-lead">Приводим документацию в соответствие с нормами законодательства РК: от аудита до полного корпоративного сопровождения</p>
+        </div>
+      </div>
+      <div class="package-grid">
+        <div class="package-card">
+          <h3>Старт</h3>
+          <ul><li>Аудит документов</li><li>Перечень нарушений</li><li>Рекомендации по исправлению</li></ul>
+        </div>
+        <div class="package-card">
+          <h3>Порядок</h3>
+          <ul><li>Аудит документов</li><li>Восстановление и систематизация архива</li><li>Шаблоны дальнейшего ведения</li></ul>
+        </div>
+        <div class="package-card featured">
+          <span class="badge">Популярный</span>
+          <h3>Под ключ</h3>
+          <ul><li>Полное документальное сопровождение ОСИ, КСК в течение года</li></ul>
+        </div>
+        <div class="package-card">
+          <h3>Антикризис</h3>
+          <ul><li>Срочное восстановление документации</li><li>Подготовка к проверке</li><li>Юридическая защита, сопровождение смены руководства</li></ul>
+        </div>
+        <div class="package-card">
+          <h3>Премиум</h3>
+          <ul><li>Внешний корпоративный секретарь</li><li>Документальное сопровождение УК в течение года</li></ul>
+        </div>
+      </div>
+      <p class="audit-note">Экстренная помощь «Документы за 72 часа» — для домов, где сменилось руководство, потеряны документы или идут судебные споры.</p>
+    </div>
+  </section>
+
+  <!-- HOW WE WORK -->
+  <section class="section" id="process">
+    <div class="container process-inner">
+      <div class="process-visual">
+        <div class="badge-circle"><span>Бесплатный<br>аудит дома</span></div>
+        <img src="images/process-audit.webp" alt="Чек-лист технического аудита дома на фоне жилого дома" class="process-svg" loading="lazy" width="1024" height="1024">
+      </div>
+      <div class="process-steps">
+        <h2>Как мы работаем</h2>
+        <p class="section-lead">Мы сделали процесс работы с нами максимально простым и прозрачным</p>
+        <ol class="steps-list">
+          <li><span class="step-num">01</span><div><h4>Бесплатный аудит дома</h4><p>Обследуем инженерные сети и общее имущество, фиксируем текущее состояние.</p></div></li>
+          <li><span class="step-num">02</span><div><h4>Изучение потребностей ОСИ</h4><p>Разбираемся в условиях работы и задачах вашего дома.</p></div></li>
+          <li><span class="step-num">03</span><div><h4>Подготовка индивидуального плана</h4><p>Формируем план работ для ОСИ.</p></div></li>
+          <li><span class="step-num">04</span><div><h4>Заключение договора</h4><p>Прозрачные условия, все документы, используемые в работе.</p></div></li>
+          <li><span class="step-num">05</span><div><h4>Начало работы по стандартам</h4><p>Запускаем обслуживание по утверждённым стандартам «БайҚау».</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOLDEN KEY -->
+  <section class="section section-dark" id="goldkey">
+    <div class="container goldkey-inner">
+      <div class="goldkey-visual">
+        <div class="key-badge">
+          <span>🔑</span>
+        </div>
+      </div>
+      <div class="goldkey-text">
+        <p class="eyebrow light">Проект «Золотой ключ»</p>
+        <h2>Дом, соответствующий стандарту «БайҚау»</h2>
+        <p>В каждом доме мы проводим бесплатный технический аудит инженерных сетей. Если стороны договариваются — заключаем договор и устраняем все выявленные проблемы. По итогам дому вручается «Золотой ключ» — знак того, что дом полностью соответствует стандарту «БайҚау».</p>
+        <div class="goldkey-tags">
+          <span>🏆 Стандарт БайҚау</span>
+          <span>🔑 Золотой ключ БайҚау</span>
+          <span>🏡 Дом под защитой БайҚау</span>
+          <span>📖 Книга домов БайҚау</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCUMENTS — наполняется из вкладки «Документы» таблицы (см. initDocuments в script.js) -->
+  <section class="section" id="documents">
+    <div class="container">
+      <h2>Документы</h2>
+      <p class="section-lead wide">Договор с ОСИ, правила, инструкции, коммерческие предложения и формы отчётов — всё, что мы передаём в ОСИ, теперь доступно и жителям</p>
+      <div class="docs" id="docsGrid">
+        <p class="docs-empty">Документы появятся здесь в ближайшее время.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPLETED WORK — до/после по домам. Наполняется через Google Форму +
+       Таблицу тем же диспетчером, что ведёт заявки; см. initWorksGallery в
+       script.js. Пока WORKS_FEED_URL пустой, показывается заглушка ниже. -->
+  <section class="section section-alt" id="works">
+    <div class="container">
+      <h2>Выполненные работы</h2>
+      <p class="section-lead">Фото до и после по каждому дому — реальные объекты, реальные результаты</p>
+
+      <div class="works-grid" id="worksGrid">
+        <div class="works-placeholder">Раздел наполняется — здесь появятся фото выполненных работ по каждому дому.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <h2>Что говорят жители</h2>
+      <p class="section-lead wide">Оцените работу сервисной компании и оставьте отзыв — это помогает нам становиться лучше</p>
+
+      <div class="masters" id="mastersBlock" hidden>
+        <h3>Наши мастера</h3>
+        <div class="masters-grid" id="mastersGrid"></div>
+      </div>
+
+      <div class="reviews-layout">
+        <form class="review-form" id="reviewForm" novalidate>
+          <h3>Оставить отзыв</h3>
+          <input type="text" name="name" placeholder="Ваше ФИО" maxlength="80" required autocomplete="name">
+          <select name="master" id="reviewMaster" hidden>
+            <option value="">Мастер (необязательно)</option>
+          </select>
+          <div class="star-row">
+            <span class="star-label">Ваша оценка</span>
+            <div class="star-input" role="radiogroup" aria-label="Ваша оценка">
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="5">★</label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4">★</label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3">★</label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2">★</label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1">★</label>
+            </div>
+          </div>
+          <textarea name="text" placeholder="Ваш отзыв" rows="4" maxlength="1000" required></textarea>
+          <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <p class="form-note">Отправляя отзыв, вы соглашаетесь с <a href="privacy.html" target="_blank" rel="noopener">политикой обработки данных</a>. Имя и текст отзыва будут видны на сайте.</p>
+          <button type="submit" class="btn btn-primary">Отправить отзыв</button>
+        </form>
+
+        <div class="reviews-board">
+          <div class="reviews-summary" id="reviewsSummary" hidden></div>
+          <div class="reviews-list" id="reviewsList">
+            <p class="reviews-empty">Загружаем отзывы…</p>
+          </div>
+          <button type="button" class="btn btn-ghost" id="reviewsMore" hidden>Показать ещё</button>
+          <button type="button" class="admin-toggle" id="adminToggle">Вход для директора</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="contacts">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Свяжитесь с нами</h2>
+        <p>Всё поясним и вместе придём к результату!</p>
+        <div class="contact-dock">
+          <a class="dock-item" href="mailto:baikau2017@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            <span class="dock-tooltip">Почта</span>
+          </a>
+          <a class="dock-item" href="https://wa.me/77761497861" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.6 6.31999C16.8669 5.58141 15.9943 4.99596 15.033 4.59767C14.0716 4.19938 13.0406 3.99622 12 3.99999C10.6089 4.00135 9.24248 4.36819 8.03771 5.06377C6.83294 5.75935 5.83208 6.75926 5.13534 7.96335C4.4386 9.16745 4.07046 10.5335 4.06776 11.9246C4.06507 13.3158 4.42793 14.6832 5.12 15.89L4 20L8.2 18.9C9.35975 19.5452 10.6629 19.8891 11.99 19.9C14.0997 19.9001 16.124 19.0668 17.6222 17.5816C19.1205 16.0965 19.9715 14.0796 19.99 11.97C19.983 10.9173 19.7682 9.87634 19.3581 8.9068C18.948 7.93725 18.3505 7.05819 17.6 6.31999ZM12 18.53C10.8177 18.5308 9.65701 18.213 8.64 17.61L8.4 17.46L5.91 18.12L6.57 15.69L6.41 15.44C5.55925 14.0667 5.24174 12.429 5.51762 10.8372C5.7935 9.24545 6.64361 7.81015 7.9069 6.80322C9.1702 5.79628 10.7589 5.28765 12.3721 5.37368C13.9853 5.4597 15.511 6.13441 16.66 7.26999C17.916 8.49818 18.635 10.1735 18.66 11.93C18.6442 13.6859 17.9355 15.3645 16.6882 16.6006C15.441 17.8366 13.756 18.5301 12 18.53ZM15.61 13.59C15.41 13.49 14.44 13.01 14.26 12.95C14.08 12.89 13.94 12.85 13.81 13.05C13.6144 13.3181 13.404 13.5751 13.18 13.82C13.07 13.96 12.95 13.97 12.75 13.82C11.6097 13.3694 10.6597 12.5394 10.06 11.47C9.85 11.12 10.26 11.14 10.64 10.39C10.6681 10.3359 10.6827 10.2759 10.6827 10.215C10.6827 10.1541 10.6681 10.0941 10.64 10.04C10.64 9.93999 10.19 8.95999 10.03 8.56999C9.87 8.17999 9.71 8.23999 9.58 8.22999H9.19C9.08895 8.23154 8.9894 8.25465 8.898 8.29776C8.8066 8.34087 8.72546 8.403 8.66 8.47999C8.43562 8.69817 8.26061 8.96191 8.14676 9.25343C8.03291 9.54495 7.98287 9.85749 8 10.17C8.0627 10.9181 8.34443 11.6311 8.81 12.22C9.6622 13.4958 10.8301 14.5293 12.2 15.22C12.9185 15.6394 13.7535 15.8148 14.58 15.72C14.8552 15.6654 15.1159 15.5535 15.345 15.3915C15.5742 15.2296 15.7667 15.0212 15.91 14.78C16.0428 14.4856 16.0846 14.1583 16.03 13.84C15.94 13.74 15.81 13.69 15.61 13.59Z"/></svg>
+            <span class="dock-tooltip">WhatsApp</span>
+          </a>
+          <a class="dock-item" href="tel:+77761412999" aria-label="Технический отдел">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2C9.6 21 3 14.4 3 6a2 2 0 0 1 2-2Z"/></svg>
+            <span class="dock-tooltip">Тех. отдел</span>
+          </a>
+          <a class="dock-item" href="https://t.me/joinchannelzkh" target="_blank" rel="noopener" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
+            <span class="dock-tooltip">Telegram-канал</span>
+          </a>
+          <a class="dock-item" href="https://www.tiktok.com/@uk_baikau" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="-3.51 -.07 2179.67 2536.92" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m2173.57 597.31c2.59 22 2.2 409.94-.29 426.26-6.61 3.09-14 1.57-21.13 1.46-96.56-1.51-190.85-17.32-282.94-46.11a1016.61 1016.61 0 0 1 -270.46-131.14c-4.93-3.36-10.09-6.37-15.18-9.48-.46-.28-1.24 0-2 0-3.85 1.75-2.73 5.46-2.82 8.52-.22 6.66-.09 13.33-.09 20 0 279.22-.71 558.44.18 837.66 1 310-183 594-467.45 721.69-72.81 32.68-148.9 53.42-228.22 63-395.62 47.68-761.11-208.31-858.84-589-20.73-80.59-27.84-162.49-22.75-245.76 20.41-334.35 256.06-623.48 582-711.63 85.07-23 171.56-30.61 259.33-25.3 13.95.85 27.85 2.66 41.74 4.31 3.16.37 6.17 1.94 8.93 2.86 2.81 18.89 3.83 257 1.85 418.27-.07 5.22-.7 10.44-1.17 17-7.41-1.6-13.8-2.79-20.08-4.39a347.09 347.09 0 0 0 -87-10.84c-158.91.59-301.06 108.48-344.37 261.54-57.53 203.32 70.44 413 278.42 452.66 199 38 373.21-90.37 417.19-265.91a370.25 370.25 0 0 0 11-91v-4l.24-1153.52q.06-259.89.22-519.78c0-7.23.34-14.47.55-22.78 4.51-.7 8.25-1.71 12-1.77 14.66-.2 29.32-.11 44-.11h345.83c7.89 0 15.78.28 23.38.43 4.65 7.06 3 13.92 3.25 20.34 5.23 109.5 35.54 211.31 96.21 302.89 95.34 144 228.54 232 398.26 263.8 28 5.25 56.9 6 85.39 8.85 4.58.47 9.13.67 14.82.98z"/></svg>
+            <span class="dock-tooltip">TikTok</span>
+          </a>
+        </div>
+      </div>
+      <form class="cta-form" id="ctaForm">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="tel" name="phone" placeholder="Телефон / WhatsApp" required>
+        <textarea name="comment" placeholder="Комментарий" rows="3"></textarea>
+        <label class="consent"><input type="checkbox" required> <span>Согласен с <a href="privacy.html" target="_blank" rel="noopener">обработкой персональных данных</a></span></label>
+        <button type="submit" class="btn btn-primary">Отправить заявку</button>
+      </form>
+      <p class="cta-copyright"><a href="privacy.html" class="cta-legal">Политика обработки персональных данных</a><br>© 2026 ТОО «Управляющая компания „БайҚау“». Мы не просто управляем домом — мы создаём спокойствие жителей.</p>
+    </div>
+  </section>
+</main>
+
+<div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+<script src="i18n.js?v=3"></script>
+<script src="script.js?v=53"></script>
+</body>
+</html>
