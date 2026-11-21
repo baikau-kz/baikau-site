@@ -459,8 +459,9 @@ const SITE_API_URL = 'https://script.google.com/macros/s/AKfycbyZI1_83BDqEzABMAS
   const form = document.getElementById('ctaForm');
   if (!form) return;
 
-  // 24/7 dispatch WhatsApp number, as given by Дамеля (21.08): 8701 242 59 40.
-  const WHATSAPP_NUMBER = '77012425940';
+  // Dispatcher WhatsApp number (changed 21.11 per Дамеля): +7 700 780 24 26.
+  // The resident never types it — it is the wa.me target below.
+  const WHATSAPP_NUMBER = '77007802426';
 
   // Paste the URL you get from "Deploy > Web app" in Google Apps Script here
   // (looks like https://script.google.com/macros/s/AKfycb.../exec). Leave it
